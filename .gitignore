@@ -65,6 +65,11 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+tb_env/
+check_tb.py
+wandb/
+*.csv
+logs/
 # Scrapy stuff:
 .scrapy
 
