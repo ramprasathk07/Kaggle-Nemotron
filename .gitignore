@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 *.json
 
+*.jsonl
+
 # C extensions
 *.so
 antigravity_stuff/
