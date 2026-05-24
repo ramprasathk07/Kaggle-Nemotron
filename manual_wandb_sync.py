@@ -10,7 +10,7 @@ WANDB_PROJECT_NAME = "my_tensorboard_sync"
 
 def sync_tfevents_to_wandb():
     # Find the tfevents file
-    log_dir = r"./logs/tb_logs"
+    log_dir = r"data\11052026_logs"
     event_files = glob.glob(os.path.join(log_dir, "events.out.tfevents.*"))
     
     if not event_files:

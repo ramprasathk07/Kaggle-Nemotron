@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 # ============================================================
 # HARD-CODED PATHS AND PROJECT NAME – EDIT THESE
-TENSORBOARD_LOG_DIR = r"./logs/tb_logs"      # Your TensorBoard log folder
+TENSORBOARD_LOG_DIR = r".data\11052026_logs"      # Your TensorBoard log folder
 WANDB_PROJECT_NAME = "my_tensorboard_sync"   # Replace with your wandb project name
 WANDB_ENTITY = None                          # Optional: your wandb username/team
 # ============================================================
