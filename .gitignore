@@ -6,6 +6,8 @@ __pycache__/
 
 CLAUDE.md 
 
+*.txt
+*.jsonl
 # C extensions
 *.so
 antigravity_stuff/
