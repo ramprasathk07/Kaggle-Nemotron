@@ -1,3 +1,26 @@
+# ── project: secrets (never commit) ──
+*.env
+.env
+**/.env
+kaggle.json
+*.key
+
+# ── project: build/scratch temp dirs ──
+_nr/
+_rl/
+_rt/
+_st/
+_gr/
+**/reasoners/
+*.stackdump
+
+# ── project: large artifacts (adapters / weights / submissions) ──
+outputs/
+**/*.safetensors
+submission*.zip
+*.pt
+*.bin
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,0 +1,5 @@
+reasoners/
+__pycache__/
+traces.jsonl
+traces.csv
+.env
